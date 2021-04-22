@@ -5,15 +5,16 @@ import "./image.css"
 
 const Image = () => {
     const data = useStaticQuery(graphql`
-    query  {
+    query {
   allFile(
-    filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, name: {nin: ["background", "background2"]}}
+    filter: {extension: { regex: "/(jpg)|(jpeg)/" }
+     name: { nin: ["background", "background2" ]}}
   ) {
     edges {
       node {
         base
         childImageSharp {
-          fluid{
+          fluid(maxHeight: 600, maxWidth: 600) {
 							...GatsbyImageSharpFluid
           }
           
