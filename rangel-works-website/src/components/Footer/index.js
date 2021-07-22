@@ -24,7 +24,7 @@ const Footer = () => {
               <SocialMediaWrap>
                   <SocialLogo to="/">
                       <SocialIcon />
-                      EXPLOR
+                      RANGEL
                   </SocialLogo>
                   <WebsiteRights>WuK{new Date().getFullYear()}</WebsiteRights>
                   <SocialIcons>

@@ -14,7 +14,7 @@ const Image = () => {
       node {
         base
         childImageSharp {
-          fluid(maxHeight: 600, maxWidth: 600) {
+          fluid(maxHeight: 800, maxWidth: 800) {
 							...GatsbyImageSharpFluid
           }
           
@@ -27,7 +27,7 @@ const Image = () => {
     `)
     return (
        <div className="image-container">
-           <h1>Check out some cool shit</h1>
+           <h1>ceramics at work</h1>
            <div className="image-grid">
                {data.allFile.edges.map((image, key) => (
                  <Img key={key}
