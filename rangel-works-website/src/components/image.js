@@ -17,7 +17,7 @@ const Image = () => {
           fluid(maxHeight: 800, maxWidth: 800) {
 							...GatsbyImageSharpFluid
           }
-          
+         gatsbyImageData(sizes: "80") 
         }
       }
     }
