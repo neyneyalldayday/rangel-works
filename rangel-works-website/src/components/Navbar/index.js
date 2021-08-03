@@ -57,6 +57,9 @@ const Navbar = () => {
                  <NavItem>
                     <NavLinks to="/aboutpage">Sarah</NavLinks>    
                  </NavItem>   
+                 <NavItem>
+                    <NavLinks to="/login">Sarah</NavLinks>    
+                 </NavItem>   
                 </NavMenu>
               </NavbarContainer>
             </Nav>

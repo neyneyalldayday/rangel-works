@@ -17,7 +17,7 @@ const DesktopMenu = ({location: {pathname}, token, cartCount, signout}) => {
                 active={activeItem === withPrefix('/')}
                 as={Link}
                 to="/"
-                shop
+                header
                 >
                     <Logo />
                     Sarah Rangel Art

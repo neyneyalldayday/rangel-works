@@ -77,7 +77,7 @@ const MobileMenu = ({location: {pahtname}, token, cartCount, signout}) => {
                 <Menu.Item
                 as={Link}
                 to="/"
-                shop
+                header
                 active={activeItem === withPrefix('/')}
                 >
                     <Logo />
