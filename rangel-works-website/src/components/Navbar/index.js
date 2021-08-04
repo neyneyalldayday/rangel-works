@@ -56,10 +56,7 @@ const Navbar = () => {
                  </NavItem>   
                  <NavItem>
                     <NavLinks to="/aboutpage">Sarah</NavLinks>    
-                 </NavItem>   
-                 <NavItem>
-                    <NavLinks to="/login">Sarah</NavLinks>    
-                 </NavItem>   
+                 </NavItem>                   
                 </NavMenu>
               </NavbarContainer>
             </Nav>

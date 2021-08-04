@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { DiScala } from "react-icons/di"
 
 export const FooterContainer = styled.div`
-background-color: #101522;
+background-color: #E8CCF1;
 display: flex;
 flex-direction: column;
 justify-content: center;

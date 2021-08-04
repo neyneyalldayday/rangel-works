@@ -8,8 +8,7 @@ const About = () => (
     <Layout>
         <AboutSarah>
     <SEO title="AboutSarah" />
-   <h1 >About Me</
-   h1>
+   <h1 >About Me</h1>
   </AboutSarah>
     </Layout>
  

@@ -1,32 +1,20 @@
-import React, {useContext} from 'react'
-import {Responsive} from 'semantic-ui-react'
-import DesktopMenu from './DesktopMenu'
-import MobileMenu from './MobileMenu'
-import AuthContext from '../Context/CartContext'
-import CartContext from '../Context/CartContext'
+import React from 'react';
+import Checkout from '../checkout';
+import "./shop.css"
 
-const Shop = ({location}) => {
-    const {cartCount} = useContext(ContContext)
-    const {token, signOut} = useContext(CartContext)
 
+const Shop = () => {
     return (
         <>
-        <Responsive maxWidth={Responsive.onlyMoble.maxWidth}>
-            <MobileMenu
-            location={location}
-            token={token}
-            cartCount={cartCount}
-            signout={signOut}
-            />
-        </Responsive>
-        <Responsive minWidth={Responsive.onlyTablet.minWidth}>
-            <DesktopMenu
-            location={location}
-            token={token}
-            cartCount={cartCount}
-            signout={signOut}
-            />
-        </Responsive>        
+        <div className="shop-container">
+           <h1>Shop Ceramics</h1>
+            <div className="shop-image-container">
+            <Checkout />   
+            <Checkout />   
+            <Checkout />       
+            </div>
+        </div>
+            
         </>
     )
 }

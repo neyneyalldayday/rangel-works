@@ -1,7 +1,8 @@
 import React from 'react';
+import {Link} from 'gatsby';
 import { Button } from '../ButtonElements';
 import "./HeroSection.css";
-import Video from '../../assets/videos/edit.mp4' 
+// import Video from '../../assets/videos/edit.mp4' 
 
 
 function HeroSection() {
@@ -11,7 +12,7 @@ function HeroSection() {
             <p>check it out</p>
             {/* <Video src={Video} type="video/mp4" autoPlay loop muted playsInline />                 */}
             <div className="hero-btns">
-           <Button fontBig big primary>Interested?</Button>
+           <Button fontBig big primary as={Link} to="/works">Interested?</Button>
             </div>
         </div>
     )
