@@ -26,7 +26,7 @@ const Footer = () => {
                       <SocialIcon />
                       RANGEL
                   </SocialLogo>
-                  <WebsiteRights>WuK{new Date().getFullYear()}</WebsiteRights>
+                  <WebsiteRights>S.R.A{new Date().getFullYear()}</WebsiteRights>
                   <SocialIcons>
                       <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                          <FaFacebook /> 

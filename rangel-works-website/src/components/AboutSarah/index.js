@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '../ButtonElements';
+import { Link } from 'gatsby'
 import "./AboutSarah.css"; 
 
 const AboutSarah = () => {
@@ -9,7 +10,7 @@ const AboutSarah = () => {
         <p>I make Clay</p>                      
         <p>And smoke weed n shit</p>                      
         <div className="hero-btns">
-       <Button fontBig big primary>Reach out</Button>
+       <Button fontBig big primary as={Link} to="/email">Contact me!</Button>
         </div>
     </div>
     )
