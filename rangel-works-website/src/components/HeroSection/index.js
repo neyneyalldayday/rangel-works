@@ -27,11 +27,11 @@ function HeroSection() {
 
 
   const HeroContainer = styled.div`
-  background: #0c0c0c;
+  background: #EB65B2;
   display: flex;  
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100vh;  
   padding: 0 1rem;
   position: relative;
   margin-top: -80px;
@@ -39,7 +39,7 @@ function HeroSection() {
   `;
 
   const HeroBg = styled.div`
-  postition: absolute;
+  position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
@@ -47,7 +47,7 @@ function HeroSection() {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  
+ 
   `;
 
   const VideoBg = styled.video`
@@ -55,6 +55,7 @@ function HeroSection() {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  
   `;
 
   const HeroContent = styled.div`
@@ -76,6 +77,7 @@ function HeroSection() {
   color: #fff;
   line-height: 1.1;
   font-weight: bold;
+  
   `;
 
   const HeroH1 = styled.h1`
