@@ -3,6 +3,7 @@ import emailjs from "emailjs-com"
 import "./ContactUs.css"
 import { Button, Form, Input, Container, TextArea, Grid } from "semantic-ui-react"
 
+
 export default function ContactUs() {
   function sendEmail(event) {
     event.preventDefault()
@@ -30,13 +31,15 @@ export default function ContactUs() {
         <Grid.Column computer={8} mobile={16}>
           <Form onSubmit={sendEmail} className="formStyle">
           <h1>Talk to Me</h1>
-            <Form.Field
+         
+          <Form.Field
               control={Input}
               label="Email"
               name="email"
               placeholder="Write your Email..."
               type="email"
-              required              
+              required 
+                           
             />
             <Form.Field
               control={Input}
@@ -50,8 +53,11 @@ export default function ContactUs() {
               label="Message"
               name="message"
               placeholder="Write your Message..."
-              required              
+              required
+                        
             />
+          
+            
             <Button primary type="submit" size="large" fluid className="button">
               Send
             </Button>
@@ -60,3 +66,5 @@ export default function ContactUs() {
       </Grid>
     </Container>
     )};
+
+    
