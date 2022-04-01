@@ -1,10 +1,60 @@
 {
+  "name": "sarah-rangel-art",
+  "private": true,
+  "description": "A ceramics E-commerce site",
+  "version": "0.1.0",
+  "author": "NeyNeyallDayDay",
   "dependencies": {
-    "gatsby": "^3.10.1",
-    "gatsby-cli": "^2.19.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-headroom": "^3.1.1",
-    "semantic-ui-react": "^2.0.3"
+    "@stripe/stripe-js": "^1.26.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "emailjs-com": "^3.2.0",
+    "gatsby": "^3.2.1",
+    "gatsby-image": "^3.10.0",
+    "gatsby-plugin-ffmpeg": "^0.3.1",
+    "gatsby-plugin-gatsby-cloud": "^2.2.0",
+    "gatsby-plugin-image": "^1.2.1",
+    "gatsby-plugin-manifest": "^3.2.0",
+    "gatsby-plugin-offline": "^4.2.0",
+    "gatsby-plugin-react-helmet": "^4.2.0",
+    "gatsby-plugin-sharp": "^3.2.1",
+    "gatsby-plugin-styled-components": "^4.3.0",
+    "gatsby-remark-video": "^1.2.5",
+    "gatsby-source-filesystem": "^3.2.0",
+    "gatsby-source-stripe": "^4.0.0",
+    "gatsby-transformer-ffmpeg": "^0.3.8",
+    "gatsby-transformer-sharp": "^3.2.0",
+    "gatsby-video": "^0.2.0",
+    "gbimage-bridge": "^0.1.4",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "semantic-ui-react": "^2.1.2",
+    "styled-components": "^5.3.5",
+    "true-case-path": "^2.2.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
