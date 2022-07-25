@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
-import { DiScala } from "react-icons/di"
+import { DiScala } from "react-icons/Di"
 
 export const FooterContainer = styled.div`
 background-color: #E8CCF1;

@@ -1,11 +1,11 @@
 import * as React from "react"
 import HeroSection from "../components/HeroSection"
 import Layout from "../components/layout"
-import SEO from "../components/SEO"
+import Seo from "../components/Seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />  
+    <Seo title="Home" />  
     <HeroSection />      
   </Layout>
 )
