@@ -1,12 +1,12 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import Seo from "../components/Seo"
+import SEO from "../components/SEO"
 import Image from "../components/image"
 
 
 const Images = () => (
   <Layout>
-    <Seo title="Images" />
+    <SEO title="Images" />
    <Image />
   </Layout>
 )
